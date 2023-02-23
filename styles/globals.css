@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .nav-btn {
+    @apply h-6 lg:inline-flex cursor-pointer hidden;
+  }
+  .hr {
+    @apply border border-solid;
+  }
+  .input {
+    @apply text-sm text-[#616161] w-full mr-3 py-5 
+    px-4 h-2 border border-[#dbdbdb] rounded mb-2 
+  }
+  .row-div {
+    @apply flex mx-5 space-x-4 mb-2;
+  }
+  .messanger-tab {
+    @apply border border-gray-300 w-32 py-1 rounded-full
+    cursor-pointer font-semibold
+  }
+}
