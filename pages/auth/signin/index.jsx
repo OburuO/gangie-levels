@@ -5,7 +5,7 @@ import {
 import Head from 'next/head';
 
 export default function SignIn({ providers }) {
-  console.log(providers);
+  console.log('Providers' + providers);
   
   return (
     <div className="items-center justify-center bg-gray-50 h-screen scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-500">
